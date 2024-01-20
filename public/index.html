@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <main>
+        <h1> estimator</h1>
+        <div class="inputField">
+            <div>
+                <ul>
+                    <li>
+                        <div class="fieldWrapper">
+                            <label for="inputLength">Length</label>
+                            <input id="inputLength" type="number" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="fieldWrapper">
+                            <label for="inputWidth">Width</label>
+                            <input id="inputWidth" type="number" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="canvasContainer">
+                <canvas id="floorCanvas"></canvas>
+            </div>
+        </div>
+    </main>
+    <script src="draw.js"></script>
+</body>
+
+</html>
